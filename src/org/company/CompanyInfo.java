@@ -11,6 +11,9 @@ public class CompanyInfo {
 	private void companyAddress() {
 		System.out.println("company Address is Mysore");
 	}
+	private void companyTurnover() {
+		System.out.println("9 crores per year");
+	}
 	public static void main(String[] args) {
 		CompanyInfo c = new CompanyInfo();
 		c.companyName();
